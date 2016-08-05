@@ -7,7 +7,13 @@
     android:layout_height="match_parent"
     tools:context="info.gstlt.blabler.MainActivity">
 
-    <WebView
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent">
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
 </android.support.constraint.ConstraintLayout>
